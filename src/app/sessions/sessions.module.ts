@@ -4,6 +4,7 @@ import { IonicModule } from '@ionic/angular';
 import { FormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { LoginComponent } from './login/login.component';
+import { MatButtonModule, MatFormFieldModule, MatInputModule } from '@angular/material';
 
 
 @NgModule({
@@ -11,6 +12,9 @@ import { LoginComponent } from './login/login.component';
         CommonModule,
         FormsModule,
         IonicModule,
+        MatFormFieldModule,
+        MatInputModule,
+        MatButtonModule,
         RouterModule.forChild([
             {
                 path: '',
